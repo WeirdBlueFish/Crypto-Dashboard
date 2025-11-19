@@ -2,8 +2,12 @@ import streamlit as st
 import yfinance as yf
 import plotly.graph_objs as go
 
+# main
+
 st.title("Crypto Live Plot")
 st.write("Welcome to my dashboard")
+
+# load data by api
 
 def load_data(ticker):
 
@@ -16,6 +20,8 @@ tikcer = st.sidebar.selectbox('Choose Ticker:', tickers_list)
 df = load_data(tikcer)
 
 df['SMA50'] = df['Close'].rolling(window=50).mean()
+
+# plot
 
 if not df.empty:
     fig = go.Figure(data=[go.Candlestick(
