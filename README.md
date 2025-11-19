@@ -45,4 +45,4 @@ Follow these steps to get the project up and running on your machine:
     ```
 
 ---
-Developed by **[Your Name]**
+Developed by **[WeirdBlueFish]**
