@@ -30,7 +30,7 @@ Follow these steps to get the project up and running on your machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR-USERNAME/Crypto-Dashboard.git](https://github.com/YOUR-USERNAME/Crypto-Dashboard.git)
+    git clone [https://github.com/WeirdBlueFish/crypto.git](https://github.com/WeirdBlueFish/Crypto-Dashboard.git)
     cd Crypto-Dashboard
     ```
 
